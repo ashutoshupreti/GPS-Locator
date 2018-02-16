@@ -1,0 +1,2 @@
+# GPS-Locator
+Designing an app that shares a person's phone’s GPS information with an emergency contact in case of theft. A trusted contact is added who can send a message with a particular keyword, like "LocatePhone". SQLite is used to store the name and phone number of that trusted contact, and a Broadcast Receiver is used to get the contents of the message. If the message contains the keyword, another message is send to that contact containing the current GPS coordinates of the phone.
